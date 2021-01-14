@@ -1,5 +1,5 @@
 /*
- * Hallar el cociente y el residuo (resto) de dos numeros enteros.
+ * 2. Hallar el cociente y el residuo (resto) de dos numeros enteros.
  */
 package lfp.cap1.estructurasecuencial.problemas;
 
