@@ -1,10 +1,8 @@
-print("Ingrese los datos a solicitar: ")
-a = int(input("Valor de a: "))
-b = int(input("Valor de b: "))
-aux = a
-a = b
-b = a
-b = aux
-print("Aqui estan los valores")
-print(f"Valor a: {a}")
-print(f"Valor b: {b}")
+a = float(input("Ingrese el valor de a: "))
+b = float(input("Ingrese el valor de b: "))
+c = float(input("Ingrese el valor de c: "))
+d = float(input("Ingrese el valor de d: "))
+e = float(input("Ingrese el valor de e: "))
+f = float(input("Ingrese el valor de f: "))
+resultado = (a + b / c) / (d + e / f)
+print(f"Resultado: {resultado:,.2f}") 
