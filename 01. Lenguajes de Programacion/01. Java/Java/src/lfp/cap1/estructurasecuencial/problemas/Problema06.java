@@ -1,5 +1,5 @@
 /*
- * 
+ * 6. Dado un numero de 5 digitos, devolver el numero en orden inverso.
  */
 package lfp.cap1.estructurasecuencial.problemas;
 
