@@ -4,10 +4,10 @@
 
 Listado de etuiquetas más significados 
 
-- **<body>**: La etiqeuta 
-- **<DOCTYPE html>**: Etiqeuta para definir que la pagina es de html.
-- **<h1>** a **<h6>**: Etiqueta para colocar encabezados.
-- **<head>**: Etiqueta para colocar la cabeza del texto HTML.
+- **body**: La etiqeuta 
+- **DOCTYPE html**: Etiqeuta para definir que la pagina es de html.
+- **h1** a **h6**: Etiqueta para colocar encabezados.
+- **head**: Etiqueta para colocar la cabeza del texto HTML.
 - header: Etiqeuta para representar un contenedor de contenido introducido.
 - html: Etiqueta para colocar un titulo en el navegador.
 - meta: Etiqueta para describir el contendo de un sitio web.
