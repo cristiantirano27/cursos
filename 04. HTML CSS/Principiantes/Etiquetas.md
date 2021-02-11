@@ -4,8 +4,8 @@
 
 Listado de etuiquetas más significados 
 
-- **body**: La etiqeuta 
-- **DOCTYPE html**: Etiqeuta para definir que la pagina es de html.
+- **body**: La etiqeuta *body* define el cuerpo del documento.
+- **!DOCTYPE**: La declaracion *!DOCTYPE* no es una etiqueta. Es una "informacion" para el navegador sobre que tipo de documento espera.
 - **h1** a **h6**: Etiqueta para colocar encabezados.
 - **head**: Etiqueta para colocar la cabeza del texto HTML.
 - header: Etiqeuta para representar un contenedor de contenido introducido.
