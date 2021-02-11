@@ -1,7 +1,6 @@
 # Interactuando con la consola
 
 ```
-if (isAwesome){
-  return true
-}
+console.log("Hola Mundo");
+console.error("ERROR");
 ```
