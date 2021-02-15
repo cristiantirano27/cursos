@@ -14,8 +14,6 @@ import javax.swing.JOptionPane;
 public class Operacion {
     //Atributos
     
-    int num1;
-    int num2;
     int suma;
     int resta;
     int multiplicacion;
@@ -23,29 +21,24 @@ public class Operacion {
     
     //Metodos
     
-    //Metodo para pedirle al usuario que digite 2 numeros
-    public void leerNumeros(){
-        num1 = Integer.parseInt(JOptionPane.showInputDialog("Digite un numero: "));
-        num2 = Integer.parseInt(JOptionPane.showInputDialog("Digite otro  numero: "));
-    }
-    
+        
     //Metodo para sumar los 2 numeros
-    public void sumar(){
+    public void sumar(int num1, int num2){
         suma = num1 + num2;
     }
     
     //Metodo para restar los 2 numeros
-    public void restar(){
+    public void restar(int num1, int num2){
         resta = num1 - num2;
     }
     
     //Metodo para multiplicar los 2 numeros
-    public void multiplicar(){
+    public void multiplicar(int num1, int num2){
         multiplicacion = num1 * num2;
     }
     
     //Metodo para dividir los 2 numeros
-    public void dividir(){
+    public void dividir(int num1, int num2){
         division = num1 / num2;
     }
     
