@@ -1,0 +1,27 @@
+body {
+    background-color: white;
+}
+h1 {
+    color: blue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+}
+
+
+div.logotipo {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+div.logotipo:hover {
+    border: 1px solid #777;
+  }
+  
+  div.logotipo img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
