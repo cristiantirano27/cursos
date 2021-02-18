@@ -15,7 +15,7 @@ public class Problema15 {
         String r = "";
     
         Scanner teclado = new Scanner(System.in);
-        System.out.print("Numero: ");
+        System.out.print("Numero: \n");
         n = teclado.nextInt();
         
         if(n % 2 == 0){
