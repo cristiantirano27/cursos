@@ -14,40 +14,36 @@ import javax.swing.JOptionPane;
 public class Operacion {
     //Atributos
     
-    int suma;
-    int resta;
-    int multiplicacion;
-    int division;
+    
     
     //Metodos
     
         
     //Metodo para sumar los 2 numeros
-    public void sumar(int num1, int num2){
-        suma = num1 + num2;
+    public int sumar(int num1, int num2){
+        int suma = num1 + num2;
+        return suma;
     }
     
     //Metodo para restar los 2 numeros
-    public void restar(int num1, int num2){
-        resta = num1 - num2;
+    public int restar(int num1, int num2){
+        int resta = num1 - num2;
+        return resta;
     }
     
     //Metodo para multiplicar los 2 numeros
-    public void multiplicar(int num1, int num2){
-        multiplicacion = num1 * num2;
+    public int multiplicar(int num1, int num2){
+        int multiplicacion = num1 * num2;
+        return multiplicacion;
     }
     
     //Metodo para dividir los 2 numeros
-    public void dividir(int num1, int num2){
-        division = num1 / num2;
+    public int dividir(int num1, int num2){
+        int division = num1 / num2;
+        return division;
     }
     
-    public void mostrarResultado(){
-        System.out.println("La suma es: " + suma);
-        System.out.println("La resta es: " + resta);
-        System.out.println("La multiplicacion es: " + multiplicacion);
-        System.out.println("La division es: " + division);
-    }
+    
 
     
 }
